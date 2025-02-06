@@ -1,9 +1,9 @@
-const btnEl = document.querySelector(".btn");
+function shownav(){
+    let show = document.querySelector(".hide")
+    show.style.display = "flex"
+}
+function hidenav(){
+    let hidenav = document.querySelector(".hide")
+    hidenav.style.display = "none"
 
-btnEl.addEventListener("mouseover",(e)=>{
-    btnEl.computedStyleMap.
-    const x = e.pageX - btnEl.offsetLeft;
-    const Y = e.pageY - btnEl.offsetTop;
-    
-    
-})
+}
